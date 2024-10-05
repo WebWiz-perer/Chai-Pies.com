@@ -1,20 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300,400,500,600|Quicksand:100,200,300,400|Pacifico:400');
-
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600|Quicksand:100,200,300,400|Pacifico:400");
 /* Reset default margin,padding,border for all elements of body */
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
-body {
-    margin: 20px 20px;
-    font-family: playfair-display, sans-serif ;
-    background-color: #f5f5f5;
-    font-size: 14px;
-    min-height: 100vh;
-    display: flexbox;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    color: #333;
+/*Font styles for headings*/
+
+
+
+
+/* Style for header navigation bar*/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #CCC7B9;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height:fit-content;
+    width: auto;
+   
+}
+#slogan {
+    font-family:cursive, sans-serif;
+    font-size: 2.1em;
+    font-style: italic;
+    font-weight: 200;
+    color: #846C5B;
+
 }
