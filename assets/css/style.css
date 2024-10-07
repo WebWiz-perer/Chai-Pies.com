@@ -5,31 +5,101 @@
     padding: 0;
     border: 0;
 }
-/*Font styles for headings*/
+/*Margin setting and font styles for body*/
+body {
+    margin: 20px 20px;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    color: #846C5B;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+  
+
+  main {
+    flex: 0 0 0;
+  }
+
+/*header*/
+header {
+    border-color:#CDC0B7 ;
+    padding: 0px 2px;
+    position: center;
+    z-index: 99;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    top: 0;
+    left: 0;
+   
+
+}
 
 
 
 
 /* Style for header navigation bar*/
-.navbar {
+.navigation {
+    font-family: Oswald;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: #CCC7B9;
+    background-color:none;
     padding: 10px 20px;
 }
 
-.logo img {
-    height:fit-content;
-    width: auto;
+.navigation li {
+    margin: 0 25px 0 25px;
+  }
+  
+  .navigation a {
+    display: inline-block;
+    text-decoration: none;
+    color: #a9612e;
+  }
+  
+  .navigation a:hover {
+    color: #CEA07E;
+    font-weight: 500;
+  }
+  
+  .active {
+    color: #CEA07E;
+    font-weight: 500;
+  }
+
+
    
-}
-#slogan {
+/* Header container with flex layout */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:normal;
+  }
+  
+  .flex-item {
+    margin-left: 50px;
+  }
+
+ #slogan {
     font-family:cursive, sans-serif;
-    font-size: 2.1em;
+    font-size: 2.1em; 
     font-style: italic;
-    font-weight: 200;
-    color: #846C5B;
+    font-weight: 400;
+    color: #a9612e;
 
 }
+
+ #hero-image {
+  width: 100%;
+  height: 600px;
+  background: url(../images/heroimage.png) no-repeat center center;
+  background-size: cover;
+
+ }

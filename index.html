@@ -24,40 +24,51 @@
     <!---custom css--->
     <link rel="stylesheet" href="assets/css/style.css">
      <!---Title and Favicon--->
-     <link rel="icon" type="image/ico" sizes="16x16" href="assets/images/favicon.ico">
+     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
 
     <title>Chai & Pies</title>
+
 </head>
 
 
-<body class="d-flex flex-column min-vh-100">
-    <header>
-        <link rel="apple-touch-icon.png" sizes="18x18" href="assets/images/apple-touch-icon.png">
-        <a href="index.html">
-            <h1 id="logo"></h1>
+<body>
+    <!--Header-->
+<header>
+         <!-- Header container with flex layout -->
+        <div class="flex-container"
+         <!-- Logo section -->
+         <div class="flex-item">
+          </div>
+        
+        <a href="index.html" aria-label="Return to Homepage">
+         <img src="assets/images/logo1.png" height="150" alt="Chai & Pies cafe">    
          </a>
-
-    <!-- Top Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <!-- Logo Section -->
-            <div class="logo">
-                <a href="index.html" aria-label="Return to Home">
-                    <img src="assets/images/apple-touch-icon.png" alt="Chai&Pies" class="logo-image">
-                </a>
-            </div>
-            <!---slogan section-->
-            <div class="logo">
-                <h1 id="slogan">Savour the spice,Love the bite</h1>
-            </div>
-            <!-- Navigation Links -->
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        </div>
+      <!-- Slogan section-->
+      <div class="flex-item">
+        <!-- Slogan -->
+        <h1 id="slogan">Crunch with every sip</h1>
+      </div>
+      
+        <!--Navigation Section-->
+      <div class="flex-item">
+      <!---NavBar-->
+      <nav>
+         <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+       </ul>
+     </nav>
+   </div>
+</div> 
+</header>
+<!--Main Section-->
+ <section id="hero-image">
+  <div id="cover-text">
+    <h2>food that brings people closer</h2>
+  </div>
+ </section>
 </body>
 </html>
