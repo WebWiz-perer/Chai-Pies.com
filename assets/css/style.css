@@ -16,7 +16,9 @@ body {
     align-content: center;
     justify-content: center;
 }
-  
+.clear-both {
+  clear: both;
+}
 
   main {
     flex: 1 0 auto;
@@ -170,7 +172,7 @@ h3 {
 
 }
 .column {
-  width: 40%;
+  width: 50%;
 }
 .right {
   float: right;
@@ -180,11 +182,14 @@ h3 {
   float: left;
 }
 
-.content-image {
+.content-image{
   text-align: center;
   padding: 50px;
-  width: 100px;
-  height: auto;
+ 
+}
+.content-image img{
+  height: 550px;
+  width:550px;
 }
 
 .content-text-right {
@@ -210,3 +215,6 @@ h3 {
 .content-text-left h3 {
   text-align: right;
 }
+
+
+
