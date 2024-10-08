@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600|Quicksand:100,200,300,400|Pacifico:400");
+@import url("https://fonts.googleapis.com/css?family= Oswald:300,400,500,600|Quicksand:100,200,300,400|Pacifico:400");
 /* Reset default margin,padding,border for all elements of body */
 * {
     margin: 0;
@@ -40,7 +40,7 @@ header {
 
 /*heading*/
 h1, h2 {
-  font-family: Pacifico, sans-serif;
+  font-family:  pacifico, sans-serif;
   letter-spacing: 4px;
   color: #c1865c;
   text-transform: uppercase;
@@ -129,11 +129,12 @@ h3 {
 #cover-text h2 {
   color: #FFB9B2;
   background-color: #B46060; 
-  font-size: 28px;
-  font-family: Pacifico, sans-serif ;
+  font-size: 25px;
+  font-family: Qwitcher-Grypen, sans-serif ;
   font-style: italic;
   font-weight: 500;
   text-align: left;
+  text-transform:lowercase;
   padding: 40px 10px; 
   margin: 0;
 }
@@ -225,7 +226,11 @@ h3 {
   border-bottom: 1px solid #a68370;
   background-color: white;
   text-decoration: none;
-  position: center;
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 
