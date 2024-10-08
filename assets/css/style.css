@@ -215,6 +215,56 @@ h3 {
 .content-text-left h3 {
   text-align: right;
 }
+/*Return*/
 
+.return-link {
+  font-family: Quicksand;
+  font-size: 1em;
+  font-weight: 500;
+  color: #4A2F1C;
+  border-bottom: 1px solid #a68370;
+  background-color: white;
+  text-decoration: none;
+  position: center;
+}
+
+
+.return-link:hover {
+  color: #E7D8C9;
+  font-weight: 700;
+}
+
+
+/*Footer styling*/
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  height: 25px;
+  padding-top: 15px;
+  margin-top: 0px;
+}
+
+.footer-container a {
+  color: #4A2F1C;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer-container ul {
+  display: flex;
+  padding: 0;
+  gap: 50px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.copyright {
+  padding: 0px 0;
+  text-align: center;
+  color: #4A2F1C;
+  background-color: white;
+}
 
 
