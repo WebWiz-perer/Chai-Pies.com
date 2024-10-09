@@ -26,19 +26,17 @@ body {
 
 /*header*/
 header {
-    border: bottom 2px solid #CDC0B7;
-    padding-bottom:  2px;
-    z-index: 99;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    border-bottom: 2px solid #CDC0B7;
+    position: relative;
     top: 0;
-    left: 0
+    width: 100%;
+    background-color: white;
+    padding: 2px;
+  
+    
 }
 
-/*heading*/
+/*heading*/ 
 h1, h2 {
   font-family:  pacifico, sans-serif;
   letter-spacing: 4px;
@@ -62,10 +60,11 @@ h3 {
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    justify-content: space-between;
+    
     align-items: flex-end;
     background-color:none;
-    padding: 10px 20px;
+    padding: 20px 20px;
+    position:relative;
 }
 
 .navigation li {
@@ -99,31 +98,37 @@ h3 {
   }
   
   .flex-item {
-    margin-left: 1 1 48%;
+    margin-left: 0 1 0 ;
   }
 
   #hero-outer {
       position: relative;
-      height: 500px;
+      min-height: 50vh;
       width:100%;
       overflow:hidden;
-    
+      margin-top: 75px;
   }
 
  #hero-image {
-  width: 100%;
-  height: 600px;
+  max-width: 100%;
+  height:auto;
   background: url(../images/hero-image.png) no-repeat center center;
   background-size: cover;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
 
  }
 
  #cover-text {
   position: absolute;
-  right: 50px;
-  bottom: 300px;
-  width: 400px;
-  height: auto;
+    right: 50px;
+    bottom: 300px;
+    width: 400px;
+    height: auto;
+  background-color: rgba(180, 96, 96, 0.8);
+  
+    
 }
 
 #cover-text h2 {
@@ -271,6 +276,7 @@ h3 {
   color: #4A2F1C;
   background-color: white;
 }
+
 /*media queries*/
 /* General Styles Above for All Screen Sizes */
 
@@ -281,6 +287,225 @@ h3 {
     margin: 10px;
     font-size: 14px;
   }
+}
+  /* Header */
+  header {
+    flex-direction: column; /* Stack the logo and navigation */
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .flex-container {
+    flex-direction: row; /* Stack the elements */
+  }
+
+  .navigation {
+    flex-wrap: wrap; /* Stack nav links vertically */
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navigation li {
+    margin: 10px 0;
+  }
+
+  .navigation a {
+    font-size: 1.2rem;
+  }
+
+  /* Hero Section */
+  #hero-outer {
+    height: 300px; /* Reduce height for mobile */
+  }
+
+  #hero-image {
+    height: 300px;
+    background-size: cover;
+  }
+
+  #cover-text {
+    #cover-text {
+      width: 90%;
+      bottom: 20%; 
+      right: 5%;
+      text-align: center; 
+  }
+  #cover-text h2 {
+    font-size: 1.5rem;
+    padding: 20px; /* Smaller padding */
+  }
+
+  /* Content Sections */
+  .chai-content-wrapper {
+    padding: 20px 10px;
+  }
+
+  .column {
+    width: 100%; /* Stack content vertically */
+  }
+
+  .content-image img {
+    width: 100%;
+    height: auto; /* Make images responsive */
+  }
+
+  .content-text-right, .content-text-left {
+    padding: 20px 10px; /* Less padding on mobile */
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Footer */
+  .footer-container ul {
+    gap: 20px;
+  }
+
+  .footer-container a {
+    font-size: 1.2rem; /* Smaller icons */
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablet and small laptop (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjustments for 820px width and similar tablet devices */
+  body {
+    margin: 10px;
+    font-size: 15px;
+  }
+
+  /* Navigation adjustments */
+  .navigation {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .navigation a {
+    font-size: 1.1rem;
+  }
+
+  /* Hero section */
+  #hero-outer {
+    height: 400px;
+  }
+
+  #hero-image {
+    height: 400px;
+    background-size: cover;
+  }
+
+  #cover-text {
+    width: 90%;
+    max-width: 400px;
+   padding: 15px;
+  }
+  #cover-text h2 {
+    font-size: 1.5rem; /* Adjust font size for readability */
+}
+}
+  /* Image and content adjustment for tablets */
+  .column {
+    width: 100%; /* Make content stack vertically on tablets */
+  }
+
+  .content-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-text-right, .content-text-left {
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+/* Larger Screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+  /* Adjust header and navigation */
+  .flex-container {
+    justify-content: space-between;
+  }
+  .navigation {
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .navigation li {
+    margin: 0 40px;
+  }
+
+  .navigation a {
+    font-size: 1.2rem;
+  }
+
+  
+  /* Hero Section */
+  #hero-image {
+    height: 500px;
+  }
+
+  #cover-text {
+    width: 600px;
+    right: 80px;
+    bottom: 350px;
+  }
+
+  #cover-text h2 {
+    font-size: 3.5rem;
+    padding: 50px;
+  }
+
+  /* Content sections */
+  .chai-content-wrapper {
+    padding: 40px;
+  }
+
+  .column {
+    width: 50%;
+    padding: 0 30px;
+  }
+
+  .content-image img {
+    height: 600px;
+    width: 600px;
+  }
+
+  .content-text-right, .content-text-left {
+    font-size: 1.2rem;
+    padding: 60px;
+    line-height: 1.8;
+  }
+
+  /* Footer */
+  .footer-container ul {
+    gap: 80px;
+  }
+
+  .footer-container a {
+    font-size: 2rem;
+  }
+
+  .copyright p {
+    font-size: 1.3rem;
+  }
+}
+
+
+/* General Styles Above for All Screen Sizes */
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px)  {
+   /* Body */
+  body {
+    margin: 10px;
+    font-size: 14px;
+  }
+  
+
 
   /* Header */
   header {
@@ -363,75 +588,54 @@ h3 {
   }
 }
 
-/* Tablets and Small Laptops (769px - 1199px) */
-@media (min-width: 769px) and (max-width: 1199px) {
-  /* Header */
-  header {
-    padding-bottom: 15px;
+/* Tablet and small laptop (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjustments for 820px width and similar tablet devices */
+  body {
+    margin: 10px;
+    font-size: 15px;
   }
 
-  .flex-container {
-    justify-content: space-between;
-  }
-
+  /* Navigation adjustments */
   .navigation {
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
   }
 
   .navigation a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
-  /* Hero Section */
+  /* Hero section */
   #hero-outer {
-    height: 400px; /* Adjust height for tablets */
+    height: 400px;
   }
 
   #hero-image {
     height: 400px;
+    background-size: cover;
   }
 
   #cover-text {
     width: 80%;
-    bottom: 200px;
+    bottom: 180px;
+    right: 10px;
     text-align: center;
   }
 
-  #cover-text h2 {
-    font-size: 2.2rem;
-    padding: 30px;
-  }
-
-  /* Content Sections */
-  .chai-content-wrapper {
-    padding: 30px 20px;
-  }
-
+  /* Image and content adjustment for tablets */
   .column {
-    width: 50%; /* Keep columns split */
+    width: 100%; /* Make content stack vertically on tablets */
   }
 
   .content-image img {
-    height: 400px; /* Medium-sized images */
-    width: 400px;
+    width: 100%;
+    height: auto;
   }
 
   .content-text-right, .content-text-left {
-    font-size: 1rem;
-    line-height: 1.6;
-    padding: 40px 20px;
-  }
-
-  /* Footer */
-  .footer-container ul {
-    gap: 30px;
-  }
-
-  .footer-container a {
-    font-size: 1.5rem;
-  }
-
-  .copyright p {
+    padding: 20px;
     font-size: 1rem;
   }
 }
