@@ -88,7 +88,7 @@ h3 {
     font-weight: 500;
   }
 
-
+  
    
 /* Header container with flex layout */
 .flex-container {
@@ -99,7 +99,7 @@ h3 {
   }
   
   .flex-item {
-    margin-left: 50px;
+    margin-left: 1 1 48%;
   }
 
   #hero-outer {
@@ -185,12 +185,12 @@ h3 {
 
 .content-image{
   text-align: center;
-  padding: 50px;
+  padding: 0px;
  
 }
 .content-image img{
-  height: 550px;
-  width:550px;
+  height: 500px;
+  width:500px;
 }
 
 .content-text-right {
@@ -273,3 +273,64 @@ h3 {
 }
 
 
+@media (min-width: 786px){
+   
+
+
+
+.navigation {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+}
+}
+
+.navigation li {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+/* For mobile device sizes from 320px wide and down */
+@media screen and (max-width: 320px) {
+    
+  .navigation {
+      font-size: 55%;
+  }
+
+  .navigation li {
+      padding: 4px;
+      word-spacing: none;
+  }
+}
+
+.content-image img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .flex-item {
+    flex: 1 1 48%; /* Adjust width for tablets and larger screens */
+  }
+}
+h2 {
+  font-size: 4vw; /* Responsive font size relative to the viewport */
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2rem; /* Static font size for medium and larger screens */
+  }
+}
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column; /* Stack the navigation items vertically on mobile */
+  }
+
+  .column.left, .column.right {
+    width: 100%; /* Make columns full width on mobile */
+  }
+
+  .chai-content-wrapper {
+    padding: 20px; /* Adjust padding for better readability on small screens */
+  }
+}
