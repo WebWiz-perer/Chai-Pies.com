@@ -185,7 +185,7 @@ h3 {
 
 .content-image{
   text-align: center;
-  padding: 0px;
+  padding: 60px;
  
 }
 .content-image img{
@@ -271,66 +271,238 @@ h3 {
   color: #4A2F1C;
   background-color: white;
 }
+/*media queries*/
+/* General Styles Above for All Screen Sizes */
 
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Body */
+  body {
+    margin: 10px;
+    font-size: 14px;
+  }
 
-@media (min-width: 786px){
-   
+  /* Header */
+  header {
+    flex-direction: column; /* Stack the logo and navigation */
+    align-items: center;
+    padding-bottom: 10px;
+  }
 
+  .flex-container {
+    flex-direction: column; /* Stack the elements */
+  }
 
-
-.navigation {
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 5px;
-}
-}
-
-.navigation li {
-  margin-left: 0;
-  margin-bottom: 0;
-}
-/* For mobile device sizes from 320px wide and down */
-@media screen and (max-width: 320px) {
-    
   .navigation {
-      font-size: 55%;
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 10px;
+    text-align: center;
   }
 
   .navigation li {
-      padding: 4px;
-      word-spacing: none;
-  }
-}
-
-.content-image img {
-  width: 300px;
-  height: 300px;
-}
-
-@media (min-width: 768px) {
-  .flex-item {
-    flex: 1 1 48%; /* Adjust width for tablets and larger screens */
-  }
-}
-h2 {
-  font-size: 4vw; /* Responsive font size relative to the viewport */
-}
-
-@media (min-width: 768px) {
-  h2 {
-    font-size: 2rem; /* Static font size for medium and larger screens */
-  }
-}
-@media (max-width: 768px) {
-  .navigation {
-    flex-direction: column; /* Stack the navigation items vertically on mobile */
+    margin: 10px 0;
   }
 
-  .column.left, .column.right {
-    width: 100%; /* Make columns full width on mobile */
+  .navigation a {
+    font-size: 1.2rem;
   }
 
+  /* Hero Section */
+  #hero-outer {
+    height: 300px; /* Reduce height for mobile */
+  }
+
+  #hero-image {
+    height: 300px;
+    background-size: cover;
+  }
+
+  #cover-text {
+    width: 90%;
+    bottom: 150px; /* Adjust for smaller screens */
+    right: 10px;
+    text-align: center; /* Center text for mobile */
+  }
+
+  #cover-text h2 {
+    font-size: 1.8rem;
+    padding: 20px; /* Smaller padding */
+  }
+
+  /* Content Sections */
   .chai-content-wrapper {
-    padding: 20px; /* Adjust padding for better readability on small screens */
+    padding: 20px 10px;
+  }
+
+  .column {
+    width: 100%; /* Stack content vertically */
+  }
+
+  .content-image img {
+    width: 100%;
+    height: auto; /* Make images responsive */
+  }
+
+  .content-text-right, .content-text-left {
+    padding: 20px 10px; /* Less padding on mobile */
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  /* Footer */
+  .footer-container ul {
+    gap: 20px;
+  }
+
+  .footer-container a {
+    font-size: 1.2rem; /* Smaller icons */
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets and Small Laptops (769px - 1199px) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Header */
+  header {
+    padding-bottom: 15px;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  .navigation {
+    gap: 20px;
+  }
+
+  .navigation a {
+    font-size: 1.2rem;
+  }
+
+  /* Hero Section */
+  #hero-outer {
+    height: 400px; /* Adjust height for tablets */
+  }
+
+  #hero-image {
+    height: 400px;
+  }
+
+  #cover-text {
+    width: 80%;
+    bottom: 200px;
+    text-align: center;
+  }
+
+  #cover-text h2 {
+    font-size: 2.2rem;
+    padding: 30px;
+  }
+
+  /* Content Sections */
+  .chai-content-wrapper {
+    padding: 30px 20px;
+  }
+
+  .column {
+    width: 50%; /* Keep columns split */
+  }
+
+  .content-image img {
+    height: 400px; /* Medium-sized images */
+    width: 400px;
+  }
+
+  .content-text-right, .content-text-left {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 40px 20px;
+  }
+
+  /* Footer */
+  .footer-container ul {
+    gap: 30px;
+  }
+
+  .footer-container a {
+    font-size: 1.5rem;
+  }
+
+  .copyright p {
+    font-size: 1rem;
+  }
+}
+
+/* Larger Screens (min-width: 1200px) */
+@media (min-width: 1200px) {
+  /* Adjust header and navigation */
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  .navigation {
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .navigation li {
+    margin: 0 40px;
+  }
+
+  .navigation a {
+    font-size: 1.2rem;
+  }
+
+  /* Hero Section */
+  #hero-image {
+    height: 800px;
+  }
+
+  #cover-text {
+    width: 600px;
+    right: 80px;
+    bottom: 350px;
+  }
+
+  #cover-text h2 {
+    font-size: 3.5rem;
+    padding: 50px;
+  }
+
+  /* Content sections */
+  .chai-content-wrapper {
+    padding: 40px;
+  }
+
+  .column {
+    width: 50%;
+    padding: 0 30px;
+  }
+
+  .content-image img {
+    height: 600px;
+    width: 600px;
+  }
+
+  .content-text-right, .content-text-left {
+    font-size: 1.2rem;
+    padding: 60px;
+    line-height: 1.8;
+  }
+
+  /* Footer */
+  .footer-container ul {
+    gap: 80px;
+  }
+
+  .footer-container a {
+    font-size: 2rem;
+  }
+
+  .copyright p {
+    font-size: 1.3rem;
   }
 }
