@@ -36,6 +36,7 @@ header {
     
 }
 
+
 /*heading*/ 
 h1, h2 {
   font-family:  pacifico, sans-serif;
@@ -55,37 +56,23 @@ h3 {
 
 
 /* Style for header navigation bar*/
-.navigation {
-    font-family: Oswald;
-    display: flex;
-    list-style-type: none;
-    flex-direction: row;
-    
-    align-items: flex-end;
-    background-color:none;
-    padding: 20px 20px;
-    position:relative;
+.navbar-brand img {
+  height: 150px;
+
 }
 
-.navigation li {
-    margin: 0 25px 0 25px;
-  }
-  
-  .navigation a {
-    
-    text-decoration: none;
-    color: #a9612e;
-  }
-  
-  .navigation a:hover {
-    color: #CEA07E;
-    font-weight: 500;
-  }
-  
-  .active {
-    color: #CEA07E;
-    font-weight: 500;
-  }
+/* Custom Navigation link styles */
+.navbar-nav .nav-link {
+  color: #a9612e;
+  margin: 0 15px;
+}
+
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+  color: #CEA07E;
+  font-weight: 500;
+}
+
 
   
    
@@ -106,12 +93,13 @@ h3 {
       min-height: 50vh;
       width:100%;
       overflow:hidden;
-      margin-top: 75px;
+      margin-top: 0px;
+      margin-bottom: 0px;
   }
 
  #hero-image {
   max-width: 100%;
-  height:auto;
+  height:600px;
   background: url(../images/hero-image.png) no-repeat center center;
   background-size: cover;
   justify-content: center;
@@ -139,7 +127,7 @@ h3 {
   font-style: italic;
   font-weight: 500;
   text-align: left;
-  text-transform:lowercase;
+  text-transform:uppercase;
   padding: 40px 10px; 
   margin: 0;
 }
@@ -151,6 +139,7 @@ h3 {
   background-color: #CEA07E;
   text-decoration-color: #4A2F1C;
   font-style:italic ;
+  margin-top: 0;
 }
 #chai-outer {
   max-width: 100px;
@@ -221,6 +210,14 @@ h3 {
 .content-text-left h3 {
   text-align: right;
 }
+
+
+/*Contact Us Page*/
+
+#contact-image
+
+
+
 /*Return*/
 
 .return-link {
@@ -292,7 +289,7 @@ h3 {
   header {
     flex-direction: column; /* Stack the logo and navigation */
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
 
   .flex-container {
@@ -315,7 +312,8 @@ h3 {
 
   /* Hero Section */
   #hero-outer {
-    height: 300px; /* Reduce height for mobile */
+    height: 300px;
+    
   }
 
   #hero-image {
@@ -423,8 +421,8 @@ h3 {
   }
 
 
-/* Larger Screens (min-width: 1200px) */
-@media (min-width: 1200px) {
+/* Larger Screens (min-width: 1199px) */
+@media (min-width: 1199px) {
   /* Adjust header and navigation */
   .flex-container {
     justify-content: space-between;
@@ -501,11 +499,10 @@ h3 {
 @media (max-width: 768px)  {
    /* Body */
   body {
-    margin: 10px;
-    font-size: 14px;
+    margin: 0px;
+    font-size: 0px;
   }
-  
-
+}
 
   /* Header */
   header {
@@ -515,7 +512,7 @@ h3 {
   }
 
   .flex-container {
-    flex-direction: column; /* Stack the elements */
+    flex-direction: row; /* Stack the elements */
   }
 
   .navigation {
@@ -534,11 +531,11 @@ h3 {
 
   /* Hero Section */
   #hero-outer {
-    height: 300px; /* Reduce height for mobile */
-  }
+    height: 300px;
+    margin-top: 0;
 
   #hero-image {
-    height: 300px;
+    height: 400px;
     background-size: cover;
   }
 
@@ -646,14 +643,21 @@ h3 {
   .flex-container {
     justify-content: space-between;
   }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
 
+  .navbar-brand {
+    justify-items: left;
+  }
   .navigation {
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
   }
 
   .navigation li {
-    margin: 0 40px;
+    margin: 0 10px;
   }
 
   .navigation a {
@@ -661,24 +665,33 @@ h3 {
   }
 
   /* Hero Section */
-  #hero-image {
-    height: 800px;
-  }
+  @media (min-width: 1200px) {
+    #cover-text {
+      position: absolute;
+      right: 10%;
+      bottom: 30%;
+      width: 20%; /* Ensure it scales well */
+      font-size: 2.5rem; /* Increase font size for larger screens */
+    }
+  
+    #cover-text h2 {
+      padding: 0px; /* Adjust padding for better presentation */
+    }
+  
+    #hero-image {
+      height: 700px; /* Increase hero image height to fill screen */
+      background-size: cover;
+      padding:0px
+    }
 
-  #cover-text {
-    width: 600px;
-    right: 80px;
-    bottom: 350px;
+    #hero-outer {
+    margin-top: 0px;
+    }
   }
-
-  #cover-text h2 {
-    font-size: 3.5rem;
-    padding: 50px;
-  }
-
   /* Content sections */
   .chai-content-wrapper {
     padding: 40px;
+   
   }
 
   .column {
