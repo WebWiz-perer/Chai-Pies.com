@@ -65,6 +65,7 @@ h3 {
 .navbar-nav .nav-link {
   color: #a9612e;
   margin: 0 15px;
+  font-weight: 400px;
 }
 
 .navbar-nav .nav-link:hover, 
@@ -159,7 +160,7 @@ h3 {
   margin: 0 auto;
 }
 .image-background{
-  background-color: #CDC0B7;
+  background-color: #B2967D;
 
 }
 #chai-header {
@@ -214,7 +215,26 @@ h3 {
 
 /*Contact Us Page*/
 
-#contact-image
+#map-outer {
+  padding: 40px 0px 60px 0px;
+  background-color: #B2967D;
+}
+
+#map-outer h2 {
+  color: white;
+  text-align: center;
+}
+
+#map-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
 
 
 
@@ -250,7 +270,7 @@ h3 {
   background-color:white;
   height: 25px;
   padding-top: 15px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 .footer-container a {
