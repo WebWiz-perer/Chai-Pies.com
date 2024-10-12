@@ -5,34 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!---metadata for SEO -->
-     <meta name="description"
-     content="Chai & pies - A fusion cafe that not only blends two cultures through a fusion of flavors but also offers unique savory and sweet treats that bring people together!">
-     <meta name="keywords"
-     content="Chai, pies, cafe, fusion, samosas, pasties, desserts, gluten-free snacks, vegeterian, events">
-     <meta name="author" content="Aisha shah">
+    <!-- Metadata for SEO -->
+    <meta name="description"
+    content="Chai & pies - A fusion cafe that not only blends two cultures through a fusion of flavors but also offers unique savory and sweet treats that bring people together!">
+    <meta name="keywords"
+    content="Chai, pies, cafe, fusion, samosas, pasties, desserts, gluten-free snacks, vegetarian, events">
+    <meta name="author" content="Aisha Shah">
    
-     <!---Bootstrap css 5.3 -->
+    <!-- Bootstrap CSS 5.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <!---bootstrap JS-->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
    
     <!---Fontawesome-->
-    <script src="https://kit.fontawesome.com/d85a202954.js" crossorigin="anonymous"></script>
-  
-    <!---custom css-->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-     <!---Title and Favicon-->
-     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    
+    <!-- Title and Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
 
     <title>Chai & Pies</title>
 
 </head>
 
-
-<body>
-    <!--Header-->
+<body id="top"> <!-- Added id="top" for 'Return to Top' link -->
+    <!-- Header -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -67,15 +67,67 @@
 </nav>
 </header>  
 
-<!--Main Section-->
-   <!--Map Section-->
+<!-- Main Section -->
+   <!-- Map Section -->
    <section id="map-outer">
     <div id="map-target" class="spacing-under-nav"></div>
     <div id="map-inner">
         <h2>Find Us in Newport</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.879507775589!2d-3.003530622904999!3d51.58877167183195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871e6cc3c0ec769%3A0xb4c73a3360c542e4!2sHi%20Coffee!5e0!3m2!1sen!2suk!4v1728581150164!5m2!1sen!2suk" allowfullscreen="" loading="lazy" title="Embedded Google map showing cafe in Newport"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.879507775589!2d-3.003530622904999!3d51.58877167183195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871e6cc3c0ec769%3A0xb4c73a3360c542e4!2sHi%20Coffee!5e0!3m2!1sen!2suk!4v1728581150164!5m2!1sen!2suk" allowfullscreen="true" loading="lazy" title="Embedded Google map showing cafe in Newport"></iframe>
     </div>
 </section>
+<div class="contact-wrapper">
+<div class="contact-item">
+    <i class="fas fa-map-marker-alt"></i>
+    <p>123 Fusion Street, Newport, UK</p>
+</div>
+
+<!-- Contact Number -->
+<div class="contact-item">
+    <i class="fas fa-phone-alt"></i>
+    <p>+44 1234 567890</p>
+</div>
+
+<!-- Email Address -->
+<div class="contact-item">
+    <i class="fas fa-envelope"></i>
+    <p>info@chaiandpies.com</p>
+</div>
+</div>
+
+<!--form section-->
+<section id="form-outer">
+    <div id="form-nav-target" class="spacing-under-nav"></div>
+    <video autoplay muted loop>
+        <source src="assets/images/BG video.mp4" type="video/mp4">
+    </video>
+    <form id="contribute-form" method="post" action="https://formdump.codeinstitute.net/" target="_blank">
+        <h3>For any inquiries please use this form</h3>
+        <label for="fullname">Full Name</label>
+        <input type="text" name="full_name" placeholder="Full Name" id="fullname" class="text-input" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email" id="email" class="text-input" required>
+        <label for="query">Submit Query</label>
+        <textarea name="query" placeholder="Please insert your questions here" id="query" required></textarea>
+        <p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">I would like to receive the Chai & Pies email newsletter</label>
+        </p>
+        <input type="submit" value="Submit" class="submit-button">
+    </form>
+
+</section>
+
+<!-- End of Form Section -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,15 +145,12 @@
 
 
 <!-- Return to Top link -->
-    
 <h3><a href="#top" class="return-link" aria-label="Return to Top">
     <i class="fas fa-arrow-up"></i>&nbsp; Return to Top
    </a>
-   </h3>
+</h3>
 
-
-
-<!--Footer-->
+<!-- Footer -->
 <footer>
     <div class="footer-container">
         <ul>
@@ -119,12 +168,11 @@
                     aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
-            </ul>
+        </ul>
     </div>
 
-    <!--Copyright section of footer-->
+    <!-- Copyright section of footer -->
     <div class="copyright">
         <p>2024 &copy; Chai & Pies</p>
     </div>
-    
 </footer>
