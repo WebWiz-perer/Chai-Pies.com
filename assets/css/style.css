@@ -173,6 +173,12 @@ h3 {
   margin: 0 auto;
   line-height: 30px;
 }
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
 .chai-content-wrapper {
   max-width: 1200px; 
   padding: 20px 0;
@@ -203,14 +209,16 @@ h3 {
  
 }
 .content-image img{
-  height: 500px;
-  width:500px;
+  max-width: 100%; /* Make the image responsive */
+  object-fit: cover;
+  height: auto; /* Maintain image aspect ratio */
 }
 
 .content-text-right {
   text-align: justify;
   padding: 50px;
   line-height: 25px;
+  
 }
 
 .content-text-left {
