@@ -51,6 +51,7 @@ h2 {
 
 h3 {
   text-transform: uppercase;
+  color:#c1865c ;
 }
 
 
@@ -353,6 +354,27 @@ textarea {
   background-color: #e1eae7;
   cursor: pointer;
 }
+
+/*About Us*/
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  text-align: center;
+}
 /*Return*/
 
 .return-link {
@@ -632,6 +654,10 @@ textarea {
 }
 
 
+
+
+
+
 /* General Styles Above for All Screen Sizes */
 
 /* Mobile Devices (max-width: 768px) */
@@ -871,5 +897,57 @@ textarea {
 
   .copyright p {
     font-size: 1.3rem;
+  }
+}
+
+/*menu*/
+/* Menu container */
+.menu-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual category */
+.category {
+  background-color: #C5A48A;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  flex: 1 1 calc(50% - 40px); /* 2 categories per row on larger screens */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Category hover effect */
+.category:hover {
+  transform: scale(1.05);
+}
+
+/* Make sure the images are responsive */
+.category img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Title and description styles */
+.category h3 {
+  margin: 15px 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.category p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design: Stack categories vertically on smaller screens */
+@media (max-width: 768px) {
+  .category {
+      flex: 1 1 100%; /* Take full width on smaller screens */
   }
 }
