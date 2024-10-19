@@ -12,7 +12,7 @@ body {
     margin: 20px 20px;
     font-family: Quicksand, sans-serif;
     font-size: 16px;
-    color: #846C5B;
+    color: black;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -64,15 +64,16 @@ h3 {
 
 /* Custom Navigation link styles */
 .navbar-nav .nav-link {
-  color: #a9612e;
+  color: black;
   margin: 0 15px;
   font-weight: 400;
 }
 
 .navbar-nav .nav-link:hover, 
 .navbar-nav .nav-link.active {
-  color: #CEA07E;
+  color:#B46060;
   font-weight: 500;
+  
 }
 
 
@@ -80,10 +81,12 @@ h3 {
   margin-left: 0px ;
 }
 .navbar-collapse {
-  justify-content: flex-end; /* Center the nav items inside the collapse */
+  justify-content: flex-end; 
+  color: #B46060;
 }
 
 .navbar-nav {
+  
   margin: 0 auto; /* Ensure centering */
 }
 .container-fluid{
@@ -176,19 +179,22 @@ h3 {
   margin: 0 auto;
   line-height: 30px;
 }
-
 .container {
-  max-width: 1200px; 
-  margin: 0 auto; 
-  padding: 0 20px; 
+  padding-left: 15px; 
+  padding-right: 15px; 
+  margin-left: auto;
+  margin-right: auto; 
 }
+
+
 .chai-content-wrapper {
   max-width: 1200px; 
-  padding: 20px 0;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 .image-background{
-  background-color: #B4977E;
+  background-color: #B2967D;
 
 }
 #chai-header {
@@ -367,7 +373,7 @@ textarea {
 
 /* Individual category */
 .category {
-  background-color: #f5f5f5;
+  background-color: #B4977E;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -397,7 +403,7 @@ textarea {
 
 .category p {
   font-size: 1rem;
-  color:#4A2F1C;
+  color:#333;
 }
 
 /* Responsive Design: Stack categories vertically on smaller screens */
@@ -441,6 +447,20 @@ textarea {
   margin-bottom: 1.5rem;
   background-color: #B4977E;
 }
+
+p.card-text{
+  height: 450px;
+  overflow-y: scroll;
+}
+
+h3.card-title.sub-heading-color { 
+  height: 65px; text-align: center;
+}
+
+card-text:last-child { 
+  margin-bottom: 0;
+}
+
 
 #events .table {
   width:100%;
@@ -496,7 +516,10 @@ textarea {
 .custom-button-outline {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+/*Booking form*/
+#booking-form {
+  background-color: #B4977E;
+}
 
 /*Return*/
 
@@ -641,7 +664,9 @@ textarea {
   }
 
 
-
+  .contact-wrapper{
+    flex-direction: column;
+  }
 
   /* Footer */
   .footer-container ul {
@@ -838,8 +863,15 @@ textarea {
   }
   /* Content sections */
   .chai-content-wrapper {
-    padding: 40px;
-   
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+
+  .container {
+    padding-left: 15px; /* Adjust left padding */
+    padding-right: 15px; /* Adjust right padding */
   }
 
   .column {
