@@ -506,6 +506,36 @@ card-text:last-child {
 /*Booking form*/
 #booking-form {
   background-color: #B4977E;
+    
+}
+.container-section {
+  background: url(../images/bookinterior2-min.jpg) no-repeat center center;
+  width: 100%;
+  height:600px;
+  background-size: cover;
+  color:black;
+  padding-left: 10px;
+}
+.container-section h3 {
+  color: white;
+}
+
+.container-section btn custom-button-outline {
+  color:white
+}
+
+.form-background {
+  position: relative;
+  top: 5%;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  margin: auto;
+  background-color: #B2967D;
+  max-width: 400px;
+  padding: 10px;
+  color: white;
+  text-align: center;
 }
 
 /*Return*/
@@ -514,7 +544,7 @@ card-text:last-child {
   font-family: Quicksand;
   font-size: 1em;
   font-weight: 500;
-  color: #4A2F1C;
+  color: #c1865c;
   border-bottom: 1px solid #a68370;
   background-color: white;
   text-decoration: none;
@@ -542,7 +572,7 @@ card-text:last-child {
 }
 
 .footer-container a {
-  color: #4A2F1C;
+  color: #c1865c;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -558,7 +588,7 @@ card-text:last-child {
 .copyright {
   padding: 0px 0;
   text-align: center;
-  color: #4A2F1C;
+  color: #c1865c;
   background-color: white;
 }
 
@@ -670,6 +700,10 @@ card-text:last-child {
 #form-outer input[type="submit"] {
   font-size: 14px;
 }
+
+  .form-background {
+      padding: 15px;
+  }
 
   /* Footer */
   .footer-container ul {
