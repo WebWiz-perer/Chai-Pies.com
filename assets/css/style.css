@@ -67,6 +67,7 @@ h3 {
   color: black;
   margin: 0 15px;
   font-weight: 400;
+  font-size: larger;
 }
 
 .navbar-nav .nav-link:hover, 
@@ -111,7 +112,7 @@ h3 {
   }
   
   .flex-item {
-    margin-left: 0 1 0 ;
+    margin-left: 0 1 0;
   }
 
   #hero-outer {
@@ -174,7 +175,7 @@ h3 {
 
 }
 #chai-text {
-  text-align:auto;
+ 
   display: block;
   margin: 0 auto;
   line-height: 30px;
@@ -294,23 +295,24 @@ iframe {
 }
 
 .contact-item p {
-  margin: 0; /
+  margin: 0; 
 }
 
 /* Form Section */
 
 #form-outer {
-  width: 100%;
+  width:100%;
   position: relative;
 }
 
+
 video {
-  height: 600px;
+  height: 700px;
   width: 100%;
   object-fit: cover;
 }
 
-#contribute-form {
+#contact-form {
   position: absolute;
   top: 5%;
   left: 0;
@@ -342,23 +344,6 @@ textarea {
 #checkbox {
   border: 1px solid white;
   font-size: 14px;  
-}
-
-.query-button {
-  padding: 5px 20px;
-  background-color: white;
-  font-size: 100%;
-  text-align: center;
-  border-radius: 4px;
-  color: #4b5054;
-  border: none;
-  display: block;
-  margin: 0 auto;
-}
-
-.query-button:hover {
-  background-color: #e1eae7;
-  cursor: pointer;
 }
 
 /*menu*/
@@ -486,6 +471,7 @@ card-text:last-child {
   font-size: 0.8rem;
 }
 
+
 /* Buttons */
 
 .custom-button-filled {
@@ -501,8 +487,9 @@ card-text:last-child {
 }
 
 .custom-button-outline {
-  border: 5px  solid;
-  padding: 7px 25px;
+  border: 4px  solid;
+  
+  margin-top:  2px; 
   color: #4A2F1C
 }
 
@@ -595,13 +582,20 @@ card-text:last-child {
     justify-content: space-between;
   }
  
-  .navbar-brand {
-    flex: 1; 
-  }
-  .navbar-toggler {
-    flex: 0; /* Align the button to the right */
-    margin-left: auto;
-  }
+  .navbar-brand img {
+    max-height: 80px;
+    width: auto;
+}
+
+
+.navbar-toggler {
+    margin-left: auto; /* Align the toggler to the right */
+}
+
+
+.navbar-nav .nav-item {
+    margin: 0 5px; /* Space between menu items */
+}
 
   /* Hero Section */
   #hero-outer {
@@ -667,6 +661,15 @@ card-text:last-child {
   .contact-wrapper{
     flex-direction: column;
   }
+  #form-outer {
+    padding: 0px;
+  }
+  #contact-form {
+    max-width: 300px;
+}
+#form-outer input[type="submit"] {
+  font-size: 14px;
+}
 
   /* Footer */
   .footer-container ul {
@@ -720,7 +723,7 @@ card-text:last-child {
   #cover-text h2 {
     font-size: 1.5rem; /* Adjust font size for readability */
 }
-}
+
   /* Image and content adjustment for tablets */
   .column {
     width: 100%; /* Make content stack vertically on tablets */
@@ -739,6 +742,10 @@ card-text:last-child {
     min-height: 191px;
 }
 
+#contact-form {
+  max-width: 300px;
+}
+}
 /* Tablet and small laptop (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Adjustments for 820px width and similar tablet devices */
