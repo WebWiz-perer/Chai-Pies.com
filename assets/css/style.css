@@ -126,8 +126,8 @@ h3 {
 
  #hero-image {
   max-width: 100%;
-  height:600px;
-  background: url(../images/hero-image.png) no-repeat center center;
+  height:200px;
+  background: url(../images/heroimages.jpg) no-repeat center center;
   background-size: cover;
   justify-content: center;
   align-items: center; 
