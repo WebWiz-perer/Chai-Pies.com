@@ -420,8 +420,15 @@ textarea {
   background: rgba(255, 255, 255, 0.8);
   padding: 0px;
   text-align: center;
+  font: 50px;
 }
 
+figcaption p {
+  font-size: large;
+  font:bold ;
+}
+
+  
 #services .card-footer {
   font-weight: bold;
   color: var(--highlight-color);
@@ -452,13 +459,15 @@ card-text:last-child {
   font-size: 0.7rem;
 }
 
-.table tr:nth-child(odd) {
-  background-color: var(--light-brown) !important; /* Light brown for odd rows */
+
+table.table-striped tbody tr:nth-of-type(even) {
+  background-color:#B4977E; 
 }
 
-#events .table tr:nth-child(even) {
-  background-color: var(--base-brown) !important; /* Darker brown for even rows */
-}
+/* Apply color to odd rows */
+table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #846C5B; }
+
 
 .student-discount {
   background-color: var(--highlight-color);
@@ -692,6 +701,18 @@ card-text:last-child {
     margin: 0;
   }
 
+   /*About us*/
+   
+   .flex-txt-cafe {
+    padding: 10px;
+    
+   }
+   
+   #events {
+    padding: 10px;
+   }
+
+  /*contact-*/
 
   .contact-wrapper{
     flex-direction: column;
