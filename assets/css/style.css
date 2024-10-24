@@ -9,7 +9,7 @@
 }
 /*Margin setting and font styles for body*/
 body {
-    margin: 20px 20px;
+    margin: 20px;
     font-family: Quicksand, sans-serif;
     font-size: 16px;
     color: black;
@@ -18,9 +18,7 @@ body {
     align-content: center;
     justify-content: center;
 }
-.clear-both {
-  clear: both;
-}
+
 
   main {
     flex: 1 0 auto;
@@ -127,7 +125,7 @@ h3 {
  #hero-image {
   max-width: 100%;
   height:200px;
-  background: url(../images/heroimage.png) no-repeat center center;
+  background: url(../images/heroimage2.jpg) no-repeat center center;
   background-size: cover;
   justify-content: center;
   align-items: center; 
@@ -195,7 +193,7 @@ h3 {
   margin: 0 auto;
 }
 .image-background{
-  background-color: #B2967D;
+  background-color: #CAB6A5;
 
 }
 #chai-header {
@@ -219,10 +217,9 @@ h3 {
  
 }
 .content-image img{
-  max-width: 100%; /* Make the image responsive */
+  max-width: 100%;
   object-fit: cover;
-  height: auto; /* Maintain image aspect ratio */
-}
+  height: auto; }
 
 .content-text-right {
   text-align: justify;
@@ -253,7 +250,7 @@ h3 {
 
 #map-outer {
   padding: 40px 0px 60px 0px;
-  background-color: #B2967D;
+  background-color: #CAB6A5;
 }
 
 #map-outer h2 {
@@ -284,9 +281,9 @@ iframe {
 
 .contact-item {
   display: flex;
-  align-items: center; /* Align items in each section horizontally */
-  gap: 10px; /* Space between the icon and text */
-  font-size: 1.1em; /* Font size for better readability */
+  align-items: center; 
+  gap: 10px; 
+  font-size: 1.1em; 
  
 }
 
@@ -319,7 +316,7 @@ video {
   right: 0;
   bottom: 5%;
   margin: auto;
-  background-color: #B2967D;
+  background-color: #CAB6A5;
   max-width: 400px;
   padding: 20px;
   color: white;
@@ -358,7 +355,7 @@ textarea {
 
 /* Individual category */
 .category {
-  background-color: #B4977E;
+  background-color: #CAB6A5;
   border-radius: 10px;
   padding: 20px;
   text-align: center;
@@ -383,21 +380,15 @@ textarea {
 .category h3 {
   margin: 15px 0 10px;
   font-size: 1.5rem;
-  color: #333;
+  color: #4A2F1C;
 }
 
 .category p {
   font-size: 1rem;
-  color:#333;
+  color:black;
 }
 
-/* Responsive Design: Stack categories vertically on smaller screens */
-@media (max-width: 768px) {
-  .category {
-      flex: 1 1 100%; /* Take full width on smaller screens */
-      background-color:#B2967D;
-  }
-}
+
 
 /*About Us*/
 .container section {
@@ -410,7 +401,7 @@ textarea {
 
 .image-container img {
   width: 100%;
-  height: auto;
+  height: 800px;
 }
 
 .image-container figcaption {
@@ -437,7 +428,7 @@ figcaption p {
 
 #services .card {
   margin-bottom: 1.5rem;
-  background-color: #B4977E;
+  background-color: #CAB6A5;
 }
 
 p.card-text{
@@ -486,7 +477,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
 .custom-button-filled {
   border: 2px solid ;
   background-color: #4A2F1C ;
-  color: #846C5B;
+  color: #CAB6A5;
 }
 
 .custom-button-filled:hover {
@@ -514,7 +505,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
 }
 /*Booking form*/
 #booking-form {
-  background-color: #B4977E;
+  background-color: #CAB6A5;
     
 }
 .container-section {
@@ -540,7 +531,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
   right: 0;
   bottom: 5%;
   margin: auto;
-  background-color: #B2967D;
+  background-color: #CAB6A5;
   max-width: 400px;
   padding: 20px;
   color: white;
@@ -570,7 +561,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
 }
 
 .return-link:hover {
-  color: #E7D8C9;
+  color: #4A2F1C;
   font-weight: 700;
 }
 
@@ -613,7 +604,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
   /* Body */
   body {
     margin: 0px;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   /* Header */
@@ -732,6 +723,11 @@ table.table-striped tbody tr:nth-of-type(odd) {
   .form-background {
       padding: 10px;
   }
+  /*Menu*/
+  .category {
+    flex: 1 1 100%; /* Take full width on smaller screens */
+    background-color:#CAB6A5;
+}
 
   /* Footer */
   .footer-container ul {
@@ -750,7 +746,7 @@ table.table-striped tbody tr:nth-of-type(odd) {
   
 /* Tablet and small laptop (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* Adjustments for 820px width and similar tablet devices */
+  
   body {
     margin: 10px;
     font-size: 15px;
@@ -808,76 +804,6 @@ table.table-striped tbody tr:nth-of-type(odd) {
   max-width: 300px;
 }
 }
-/* Tablet and small laptop (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Adjustments for 820px width and similar tablet devices */
-  body {
-    margin: 10px;
-    font-size: 15px;
-  }
-
-
-  /* Navigation adjustments */
-  .navigation {
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .navigation a {
-    font-size: 1.1rem;
-  }
-
-  
-  /* Navigation adjustments */
-  .navigation {
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .navigation a {
-    font-size: 1.1rem;
-  }
-
-  /* Hero section */
-  #hero-outer {
-    height: 400px;
-  }
-
-  #hero-image {
-    height: 400px;
-    background-size: cover;
-  }
-
-  #cover-text {
-    width: 80%;
-    bottom: 180px;
-    right: 10px;
-    text-align: center;
-  }
-
-  /* Image and content adjustment for tablets */
-  .column {
-    width: 100%; /* Make content stack vertically on tablets */
-  }
-
-  .content-image img {
-    width: 100%;
-    height: auto;
-  }
-
-  .content-text-right, .content-text-left {
-    padding: 20px;
-    font-size: 1rem;
-  }
-  #services .card-body {
-    min-height: auto;
-}
-}
-
-
-
 /* Larger Screens (min-width: 1200px) */
 @media (min-width: 1200px) {
   /* Adjust header and navigation */
@@ -912,16 +838,16 @@ table.table-striped tbody tr:nth-of-type(odd) {
       position: absolute;
       right: 10%;
       bottom: 30%;
-      width: 20%; /* Ensure it scales well */
-      font-size: 2.5rem; /* Increase font size for larger screens */
+      width: 20%;
+      font-size: 2.5rem; 
     }
   
     #cover-text h2 {
-      padding: 0px; /* Adjust padding for better presentation */
+      padding: 0px;
     }
   
     #hero-image {
-      height: 700px; /* Increase hero image height to fill screen */
+      height: 600px; 
       background-size: cover;
       padding:0px
     }
@@ -939,8 +865,8 @@ table.table-striped tbody tr:nth-of-type(odd) {
   }
 
   .container {
-    padding-left: 15px; /* Adjust left padding */
-    padding-right: 15px; /* Adjust right padding */
+    padding-left: 15px; 
+    padding-right: 15px;
   }
 
   .column {
@@ -1010,12 +936,12 @@ table.table-striped tbody tr:nth-of-type(odd) {
 .category h3 {
   margin: 15px 0 10px;
   font-size: 1.5rem;
-  color: #333;
+  color: #4A2F1C;
 }
 
 .category p {
   font-size: 1rem;
-  color: #666;
+  color: black;
 }
 
 #services .card-body {
