@@ -403,7 +403,7 @@ textarea {
 
 .image-container img {
   width: 100%;
-  height: 800px;
+  height: 50%;
 }
 
 .image-container figcaption {
@@ -543,6 +543,15 @@ table.table-striped tbody tr:nth-of-type(odd) {
   max-width: 100%; /* Ensure the form doesn't overflow on small screens */
   overflow: hidden; 
   
+}
+
+.container404 img{
+  width: 100%;
+  height:50%;
+  position: relative;
+  background-size: cover;
+  color:black;
+  padding-left: 10px;
 }
 
 /*Return*/
