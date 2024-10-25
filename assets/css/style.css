@@ -1,6 +1,8 @@
 
 
-@import url("https://fonts.googleapis.com/css?family= Oswald:300,400,500,600|Quicksand:100,200,300,400|Pacifico:400");
+@import url("https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400|Pacifico:400");
+
+
 /* Reset default margin,padding,border for all elements of body */
 * {
     margin: 0;
@@ -11,6 +13,7 @@
 body {
     margin: 20px;
     font-family: Quicksand, sans-serif;
+    font-display: swap;
     font-size: 16px;
     color: black;
     display: flex;
@@ -125,7 +128,7 @@ h3 {
  #hero-image {
   max-width: 100%;
   height:200px;
-  background: url(../images/heroimage1.webp) no-repeat center center;
+  background: url(../images/hi.webp) no-repeat center center;
   background-size: cover;
   justify-content: center;
   align-items: center; 
