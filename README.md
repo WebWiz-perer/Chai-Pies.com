@@ -43,7 +43,7 @@ Returning Visitor Goals:
 Wireframes are made using Balsamiq
 
 -<summary> Home page</summary> 
-![Home Page](documentation/wireframes/home.jpg)
+![Home Page](documentation/Wireframes/Wireframes.png)
   </details>
 
 -<summary>About Us</summary> 
