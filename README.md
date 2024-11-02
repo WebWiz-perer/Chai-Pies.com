@@ -130,7 +130,7 @@ aisha-shah-b1921229)
    The landing page features an inviting image showcasing cafes interior with books on oneside and the counter on the other with a text overlay that highlights the purpose of Chai & Pies.
    This section gives users a clear visual introduction to the site’s mission and vibe.
   ### Home page 
-  ![Home page](documentation/wireframes/home-page.jpg)
+  ![Home page](Documentation/Wireframes/wireframes.png)
   The homepage offers visitors an insight into the cafe's core mission and vision. The hero image features the cover text, "Food that brings people closer," emphasizing that the cafe's purpose extends beyond serving delicious meals; it aims to bridge cultural gaps and unite diverse individuals under one roof.
 
   **Offers**
@@ -163,18 +163,106 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 -Parties: Users looking to books space for arranging parties, be it a corporate party or kids birthday party.
 
 All categories have a footer with book a table link for users to navigate easily to booking a table form.
-
+![Services](documentation/wireframes/services.jpg)
 **Event schedule**
 
 This section focuses on upcoming events, presented in a table format for user convenience. It includes details such as prices and times, showcasing when each event is scheduled to occur.
 users can book from here as per convenienve using the book now button.
 
 ### Menu Page
-### Contact
-### Booking Page
-### Success Page 
-## Technologies Used
-## Testing
-## Responsiveness
-## w3c Validator
+The menu page is thoughtfully organized into four main sections to enhance user experience and simplify navigation, allowing customers to quickly find the type of food or drink they’re interested in when visiting the cafe. These sections—**Drinks**, **Snacks**, **Pies**, and **Desserts**—each feature a diverse array of options, showcasing our creative fusion of flavors from different culinary traditions.
 
+- **Drinks**: This section offers an enticing selection of beverages, from traditional chai and coffee options to innovative fusion drinks that blend exotic spices and flavors. Whether customers are in the mood for a soothing chai, a bold coffee, or a refreshing seasonal drink, the variety ensures there’s something for every palate.
+
+- **Snacks**: In the Snacks section, users can explore a mix of savory and crispy delights, including fusion-inspired takes on classic snacks. From samosas with a twist to gourmet sandwiches, each item is crafted to complement our signature drinks, creating a perfect balance between flavor and texture.
+
+- **Pies**: The Pies section is dedicated to our freshly baked offerings, which combine classic and contemporary flavors. Here, customers can find both sweet and savory pies that showcase a unique blend of ingredients, offering a new take on traditional pies while honoring familiar tastes.
+
+- **Desserts**: For those with a sweet tooth, the Desserts section features a range of decadent treats, from fusion-inspired sweets to timeless classics. Each dessert is designed to provide a satisfying finish to the dining experience, blending flavors that are both indulgent and comforting.
+
+Each section reflects our commitment to innovation and quality, bringing together ingredients and techniques from various culinary backgrounds to create a distinctive menu. The layout of the menu page makes it easy for users to explore these diverse offerings, allowing them to appreciate the thoughtful fusion of recipes that defines the Chai & Pies experience.
+![menu](documentation/images/menu.jpg)
+### Contact
+The contact page takes user to the map of where to find the cafe and give them details to contact via email, phone as well as the address. The contact page also has the form for users to ask of any question that they would like to answer or any feedback they might have.
+
+![contact](documentation/images/contact.jpg)
+### Booking Page
+
+
+![BookATable](documentation/images/booking.jpg)
+
+
+
+### Success Page 
+
+
+
+![BookATable](documentation/images/booking.jpg)
+
+### 404 page
+
+
+![404](documentation/images/404.jpg)
+
+
+## Technologies Used
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Shuttershock](http://shuttershock.com/) - Used for images and videos.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer and contact icons on contact forms.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+
+## Testing
+
+
+
+
+## Responsiveness
+### Device Testing
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- I also used the following websites to test responsiveness:
+    - [Responsinator]()
+    - [Am I Responsive]()
+
+
+
+
+## w3c Validator
+#### HTML
+No error were found on any page when running through offcial W3C Markup Validator
+[w3c home Validator](Documentation/W3Testing/w3chome.png)
+[w3c home Validator](Documentation/W3Testing/w3cabout.png)
+[w3c home Validator](Documentation/W3Testing/w3ccontact.png)
+[w3c home Validator](Documentation/W3Testing/w3cmenu.png)
+[w3c home Validator](Documentation/W3Testing/w3cbooking.png)
+[w3c home Validator](Documentation/W3Testing/css.png)
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+The live link can be found here - [Chai & Pies]
+
+## Credits
+
+### Contents
+
+### Media
+
+### Resources Used
+
+## Acknowledgements
