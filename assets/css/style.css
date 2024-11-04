@@ -101,6 +101,7 @@ h3 {
   width: 100%;
   padding: 0 20px;
 }
+
 .navbar-nav{
   margin: 0;
   padding:0;
@@ -363,12 +364,12 @@ textarea {
  
 }
 
-/* Category hover effect */
+
 .category:hover {
   transform: scale(1.05);
 }
 
-/* Make sure the images are responsive */
+
 .category img {
   max-width: 100%;
   height: auto;
@@ -403,8 +404,6 @@ textarea {
 
 /*About Us*/
 
-
-/* Flex container for text and image */
 .about-container {
   display: flex;
   flex-direction: row;
@@ -497,12 +496,6 @@ card-text:last-child {
   width:100%;
   font-size: 0.7rem;
 }
-
-
-table.table-striped tbody tr:nth-of-type(even) {
-  background-color:#B4977E; 
-}
-
 
 
 .student-discount {
@@ -907,6 +900,21 @@ p { font-size: 1rem; line-height: 1.6; }
 #contact-form {
   max-width: 300px;
 }
+
+
+/* Footer */
+.footer-container ul {
+  gap: 80px;
+}
+
+.footer-container a {
+  font-size: 2rem;
+}
+
+.copyright p {
+  font-size: 1.3rem;
+}
+
 }
 
 /* Larger Screens (min-width: 1200px) */
