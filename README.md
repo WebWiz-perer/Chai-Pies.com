@@ -1,5 +1,5 @@
 # Chai & Pie 
-
+![Responsive Mockup](Documentation/websiteimages/amiresponsive.png)
 ## Introduction 
 The Chai & Pies Café website offers a glimpse into our unique range of fusion treats, from Savory delights like samosas, pasties, and tikka sandwiches to indulgent fusion desserts like chocolate samosas. We also serve a variety of innovative drinks, blending traditional tea and coffee flavors with modern twists. You can conveniently explore our full menu online, place orders, and choose flexible pickup options. Our aim is to create a simple and enjoyable experience for all, making our cross-cultural culinary fusion accessible to everyone.
 
@@ -42,25 +42,9 @@ Returning Visitor Goals:
 ### Wireframes
 Wireframes are made using Balsamiq
 
--<summary> Home page</summary> 
-![Home Page](documentation/Wireframes/Wireframes.png)
-  </details>
+-<summary>Wireframes</summary> 
+![Wireframes](Documentation/Wireframes/wireframes.png)
 
--<summary>About Us</summary> 
-![About Page](documentation/wireframes/About.jpg)
-</details>
-
--<summary> Menu</summary>
-![Menu Page](documentation/wireframes/home.jpg)
-</details>
-
--<summary>Contact Page</summary>
-![Contact Page](documentation/wireframes/Contact.jpg)
-</details>
-
--<summary>Booking Page</summary>
-![Booking Page](documentation/wireframes/Contact.jpg)
-</details>
 
 ## Design
 
@@ -99,7 +83,7 @@ The navigation is designed to offer users a smooth and visually engaging experie
 
 #### Navbar
 ##### Desktop View:
-![Desktop Navbar Image](documentation/desktop-nav.jpg)
+![Desktop Navbar Image](Documentation/websiteimages/NavigationBar.png)
 The Navbar is loacted at the top of page and comprises of Logo and navigation link.
  ##### Logo: 
  The cafe logo is diplayed on the left side.Clicking on the logo takes you to Home page no matter what page you are on and if you are already on Home page it refreshes the page.
@@ -115,7 +99,7 @@ The Navbar is loacted at the top of page and comprises of Logo and navigation li
 
 - On mobile devices, the navigation bar features the logo and hamburger menu.
 - Logo remains on the left and menu  bar on right providing aesthetically pleasing appearance.
-
+![Mobile Navbar Image](documentation/websiteimages/navbarmenu.png)
 ### Footer
 Connect with us on social media and stay updated on our latest events and offerings:
 
@@ -125,32 +109,33 @@ Connect with us on social media and stay updated on our latest events and offeri
 -**Copyright**: 2024[chai&pies](http://www.linkedin.com/in/
 aisha-shah-b1921229)
 ![Footer](documentation/footer-section.jpg)
-
+ 
   ### The Landing Page Image(Home)
    The landing page features an inviting image showcasing cafes interior with books on oneside and the counter on the other with a text overlay that highlights the purpose of Chai & Pies.
    This section gives users a clear visual introduction to the site’s mission and vibe.
+
   ### Home page 
-  ![Home page](Documentation/Wireframes/wireframes.png)
+  ![Home page](Documentation/websiteimages/home.png)
   The homepage offers visitors an insight into the cafe's core mission and vision. The hero image features the cover text, "Food that brings people closer," emphasizing that the cafe's purpose extends beyond serving delicious meals; it aims to bridge cultural gaps and unite diverse individuals under one roof.
 
   **Offers**
  The homepage following the hero image highlights current promotions at the café, designed to instill a sense of urgency for customers to take advantage of these offers.
- ![Offer](documentation/wireframes/offer.jpg)
+ ![Offer](Documentation/websiteimages/offerheader.png)
 
   **Chai iamge and content**
   
 The "Chai and Sigh" section provides users with an overview of what to expect, highlighting that they can customize their drinks to suit their personal preferences and needs. It also emphasizes that, in addition to offering a unique fusion experience, the cafe provides authentic flavors in both coffee and chai.
- ![chai](documentation/wireframes/chai.jpg)
+ ![chai](Documentation/websiteimages/chaiandpiesec.png)
 
 **Snack, pies and delights Section**
 The "Snacks, Pies, and Delights" section offers users a comprehensive look at the delectable snacks and pies available at the cafe. It showcases the wide variety of options, inviting guests to explore an assortment of flavors and textures that cater to diverse tastes. The section embodies the slogan "Sip with Every Crunch," emphasizing the delightful pairing of crispy, savory treats with a refreshing drink. This fusion of flavors enhances the overall dining experience, making each bite a perfect complement to the cafe's signature beverages.
-![chai](documentation/wireframes/chai.jpg)
+![chai](Documentation/websiteimages/snackandpies.png)
 
 ###About Us page 
 The about us page is divided into 3 parts 
 **Front Image**
 The about us page starts with the front of the cafe and little overview of why we are what we claim to be. The image of front of the cafe depicts the ambiance and services provide as it aligns with overall theme and vision of the cafe.
-
+[front](Documentation/websiteimages/front.png)
 **Services**
 The services are divided into four categories, each with its own unique specifications and images that showcase the events and services available to users.
 
@@ -163,11 +148,14 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 -Parties: Users looking to books space for arranging parties, be it a corporate party or kids birthday party.
 
 All categories have a footer with book a table link for users to navigate easily to booking a table form.
-![Services](documentation/wireframes/services.jpg)
+![Services](Documentation/websiteimages/services.png)
+
 **Event schedule**
 
 This section focuses on upcoming events, presented in a table format for user convenience. It includes details such as prices and times, showcasing when each event is scheduled to occur.
 users can book from here as per convenienve using the book now button.
+![Services](Documentation/websiteimages/events.png)
+
 
 ### Menu Page
 The menu page is thoughtfully organized into four main sections to enhance user experience and simplify navigation, allowing customers to quickly find the type of food or drink they’re interested in when visiting the cafe. These sections—**Drinks**, **Snacks**, **Pies**, and **Desserts**—each feature a diverse array of options, showcasing our creative fusion of flavors from different culinary traditions.
@@ -181,28 +169,34 @@ The menu page is thoughtfully organized into four main sections to enhance user 
 - **Desserts**: For those with a sweet tooth, the Desserts section features a range of decadent treats, from fusion-inspired sweets to timeless classics. Each dessert is designed to provide a satisfying finish to the dining experience, blending flavors that are both indulgent and comforting.
 
 Each section reflects our commitment to innovation and quality, bringing together ingredients and techniques from various culinary backgrounds to create a distinctive menu. The layout of the menu page makes it easy for users to explore these diverse offerings, allowing them to appreciate the thoughtful fusion of recipes that defines the Chai & Pies experience.
-![menu](documentation/images/menu.jpg)
+![menu](Documentation/websiteimages/menucat1.png)
+![menu](Documentation/websiteimages/menucat2.png)
+
 ### Contact
-The contact page takes user to the map of where to find the cafe and give them details to contact via email, phone as well as the address. The contact page also has the form for users to ask of any question that they would like to answer or any feedback they might have.
+The contact page guides users to a map showing the café’s location and provides contact details, including email, phone number, and address. It also features a form where users can submit questions or share feedback. Built using the Bootstrap framework, the form is complemented by a background video, adding an aesthetically pleasing touch to the page.
 
-![contact](documentation/images/contact.jpg)
+![contact form](Documentation/websiteimages/contactform.png)
+![contact form](Documentation/websiteimages/map.png)
+
 ### Booking Page
+A separate booking page was created specifically for users looking to reserve an event, table, or party. Designed independently from the contact form, it allows users to navigate and make bookings with ease. The form's layout draws inspiration from board game walkthroughs, enhancing its user-friendly design. The form contains section for name, email adress, phone number and type of event user would like to book.
 
-
-![BookATable](documentation/images/booking.jpg)
+![BookATable](Documentation/websiteimages/Booking.png)
 
 
 
 ### Success Page 
 
+Th esuccess page appears after the user has submitted the contact form correctly.
+It starts with thanking user for choosing Chai and pies and then goes on to reassuring the users that they will be contacted with confirmation.
 
 
-![BookATable](documentation/images/booking.jpg)
+![Success](Documentation/websiteimages/success.png)
 
 ### 404 page
+A 404 page was also created in case , users cannot reach the page at that moment of type whether its a typo or any other technical issue. Th e404 page provides user with a picture of cartoon holding chai and pies with a light hearted caption directing them to return to homepage.
 
-
-![404](documentation/images/404.jpg)
+![404](Documentation/websiteimages/404.png)
 
 
 ## Technologies Used
@@ -220,7 +214,62 @@ The contact page takes user to the map of where to find the cafe and give them d
 
 
 ## Testing
+### Lighthouse report
+Using lighthouse in devtools and speed insight I can confirm now that the website is perfoming well with 100 on SEO , more than 90 on accessibility and colours and fonts chosen.
+**Home page**
 
+Desktop:
+
+![Test for desktop](Documentation/Lighthouse/homedesktop.png)
+
+Mobile:
+
+![Test for mobiles](Documentation/Lighthouse/homemobile.png)
+
+**About us page**
+
+Desktop:
+
+![Test for desktop](Documentation/Lighthouse/about.png)
+
+Mobile:
+
+![Test for mobiles](Documentation/Lighthouse/aboutmobile.png)
+
+
+
+**Menu**
+
+Desktop:
+
+![Test for desktop](Documentation/Lighthouse/menudesktop.png)
+
+Mobile:
+
+![Test for mobiles](Documentation/Lighthouse/menumobile.png)
+
+
+
+**Contact page**
+
+Desktop:
+
+![Test for desktop](Documentation/Lighthouse/contactdesktop.png)
+
+Mobile:
+
+![Test for mobiles](Documentation/Lighthouse/contactmobile.png)
+
+
+**BookATable page**
+
+Desktop:
+
+![Test for desktop](Documentation/Lighthouse/bookingmobile.png)
+
+Mobile:
+
+![Test for mobiles](Documentation/Lighthouse/bookingdesktop.png)
 
 
 
@@ -228,21 +277,20 @@ The contact page takes user to the map of where to find the cafe and give them d
 ### Device Testing
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following websites to test responsiveness:
-    - [Responsinator]()
-    - [Am I Responsive]()
-
-
+    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fwebwiz-perer.github.io%2FChai-Pies.com)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://webwiz-perer.github.io/Chai-Pies.com)
 
 
 ## w3c Validator
 #### HTML
 No error were found on any page when running through offcial W3C Markup Validator
-[w3c home Validator](Documentation/W3Testing/w3chome.png)
-[w3c home Validator](Documentation/W3Testing/w3cabout.png)
-[w3c home Validator](Documentation/W3Testing/w3ccontact.png)
-[w3c home Validator](Documentation/W3Testing/w3cmenu.png)
-[w3c home Validator](Documentation/W3Testing/w3cbooking.png)
-[w3c home Validator](Documentation/W3Testing/css.png)
+![w3c home Validator](Documentation/W3Testing/w3chome.png)
+![w3c about Validator](Documentation/W3Testing/w3cabout.png)
+![w3c contact Validator](Documentation/W3Testing/w3ccontact.png)
+![w3c menu Validator](Documentation/W3Testing/w3cmenu.png)
+![w3c booking Validator](Documentation/W3Testing/w3cbooking.png)
+![w3c css Validator](Documentation/W3Testing/css.png)
+## Manual Testing
 
 ## Deployment
 
@@ -255,14 +303,39 @@ The project was deployed using GitHub pages. The steps to deploy using GitHub pa
 5. Once selected, click the 'Save'.
 6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
 
-The live link can be found here - [Chai & Pies]
+The live link can be found here - [Chai & Pies](https://webwiz-perer.github.io/Chai-Pies.com/)
 
+
+## Bugs Found and solved
+-When I first implemented my navigation bar, I was having lots of space on the left side and all the items of navigation bar were centered. I tried reducing the padding but nothing helped and after little resecrh into bootstrap and css, apllied flex to display and it was sorted.
+- When adding images, I was using absolute rather than relative path and was not able to see the error until I deployed my website. The error was not visible in preview as the pictures were loading. After going forth and back found out that it was due to absolute path being used.
+- I applied the images initially to the size that I downloaded. 
+- There were other minor hiccups in css but was sorted by adding media queries.
+## Unsolved Bugs
+
+## Mistakes
+
+
+## Future features to be added
 ## Credits
 
 ### Contents
+The inspiration was taken from cafe websites and content was researched through google and chat gpt was used to rephrase own words in more user friendly and professional manner.
+[Bella Cafe](https://belacafe.co.uk/)
+[Brunch Club](https://www.the-brunch-club.co.uk/)
+[Chatgpt](https://chatgpt.com/)
+
 
 ### Media
+All the media images and video were generated from AI using shuttershock.I own the license for both the videos and all the images.
+[Shuttershock](www.shuttershock.com)
 
-### Resources Used
 
 ## Acknowledgements
+My mentor Antonio for his support and advice.
+
+The course facilitator Marco for his continous support and constructive feedback.
+
+The tutors for helping whenever there is a brain fog.
+
+The Code Institute slack community for their quick responses and wealth of knowledge
