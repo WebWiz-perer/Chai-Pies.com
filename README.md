@@ -76,7 +76,9 @@ Fonts were imported via [Google Fonts](https://fonts.google.com/). The Fonts use
 
 ### Chai & Pies logo
 Our logo captures the essence of Chai & Pies, blending warmth and a touch of elegance. The steaming cup of tea symbolizes comfort and relaxation, while the gentle earthy tones convey a cozy, inviting ambiance. The tagline, 'Crunch with every sip,' hints at a delightful pairing of flavors that makes each visit a memorable experience.
-![Chai&Pies logo](assets/images/logo1.webp)
+
+![Chai&Pies logo](Documentation/websiteimages/logos.png)
+
 ## Features
 - ### Navigation 
 The navigation is designed to offer users a smooth and visually engaging experienec.The summary of its key navigation elements as follows:
@@ -93,7 +95,7 @@ The Navbar is loacted at the top of page and comprises of Logo and navigation li
 
  - **Home:** Leads to main page that gives an overview to the users of what they can expect to see in next few pages.Its mainly who we are.
 
- - **About Us:** Give users an inbdepth of why are who we are. Takes users on a journer of why we started it and what services we offer and what to expect once you visit our cafe.
+ - **About Us:** Give users an inbdepth of why we are who we are. Takes users on a journer of why we started it and what services we offer and what to expect once you visit our cafe.
 
  - **Menu:** Takes user on a journey to choose from savouries and sweets we offer along with the experience in cafe.
 
@@ -228,27 +230,31 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 
 
  ## Testing
+
  ### Lighthouse report
  Using lighthouse in devtools and speed insight I can confirm now that the website is perfoming well with 100 on SEO , more than 90 on accessibility and colours and fonts chosen.
+
+
+
  **Home page**
 
  Desktop:
 
-![Test for desktop](Documentation/Lighthouse/homedesktop.png)
+![Test for desktop](Documentation/Lighthouse/IndexLHD.png)
 
  Mobile:
 
- ![Test for mobiles](Documentation/Lighthouse/homemobile.png)
+ ![Test for mobiles](Documentation/Lighthouse/indexLH.png)
 
  **About us page**
 
  Desktop:
 
- ![Test for desktop](Documentation/Lighthouse/about.png)
+ ![Test for desktop](Documentation/Lighthouse/AboutusLHD.png)
 
  Mobile:
 
- ![Test for mobiles](Documentation/Lighthouse/aboutmobile.png)
+ ![Test for mobiles](Documentation/Lighthouse/AboutLH.png)
 
  
 
@@ -256,11 +262,11 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 
  Desktop:
 
- ![Test for desktop](Documentation/Lighthouse/menudesktop.png)
+ ![Test for desktop](Documentation/Lighthouse/MenuLHD.png)
 
  Mobile:
 
- ![Test for mobiles](Documentation/Lighthouse/menumobile.png)
+ ![Test for mobiles](Documentation/Lighthouse/MenuMobile.png)
 
 
 
@@ -268,27 +274,25 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 
  Desktop:
 
-![Test for desktop](Documentation/Lighthouse/contactdesktop.png)
+![Test for desktop](Documentation/Lighthouse/ContactLHD.png)
 
  Mobile:
 
- ![Test for mobiles](Documentation/Lighthouse/contactmobile.png)
+ ![Test for mobiles](Documentation/Lighthouse/contact.png)
 
 
  **BookATable page**
 
  Desktop:
 
- ![Test for desktop](Documentation/Lighthouse/bookingmobile.png)
+ ![Test for desktop](Documentation/Lighthouse/bookingLHD.png)
 
  Mobile:
 
- ![Test for mobiles](Documentation/Lighthouse/bookingdesktop.png)
+ ![Test for mobiles](Documentation/Lighthouse/BOOKINGLH.png)
 
-## Responsiveness
-## Responsiveness
-### Device Testing
  ## Responsiveness
+
 ### Device Testing
  - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
  - I also used the following websites to test responsiveness:
@@ -303,7 +307,7 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  ![w3c contact Validator](Documentation/W3Testing/w3ccontact.png)
  ![w3c menu Validator](Documentation/W3Testing/w3cmenu.png)
  ![w3c booking Validator](Documentation/W3Testing/w3cbooking.png)
- ![w3c css Validator](Documentation/W3Testing/css.png)
+ ![w3c css Validator](Documentation/W3Testing/CSSW3C.png)
  
  ## Manual Testing
 
@@ -344,7 +348,10 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  - Initially, I didn't use Bootstrap for the images, which caused alignment issues with the content. Once I applied Bootstrap, however, the images displayed with a pleasantly aesthetic alignment.
 
  ## Unsolved Bugs
- To the best of my knowledge ,there were not any unsolved bugs.
+ 
+ - The background video on contact form doesnot really work as intended on safari. It works fine on edge, chrome and firefox. It actually is static when behind the form on safari and overshadows the form when played.
+
+ - Also, the score on best practices contact page is 79 due to third party loading speed. 
 
 
  ## Credits
@@ -376,6 +383,6 @@ All the media images and video were generated from AI using shuttershock.I own t
 
  The course facilitator Marco for his continous support and constructive feedback.
 
- The tutors for helping whenever there is a brain fog.
+ The tutors for helping whenever there was a brain fog.
 
  The Code Institute slack community for their quick responses and wealth of knowledge
