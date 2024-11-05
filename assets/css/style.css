@@ -433,7 +433,6 @@ textarea {
   padding: 10px;
 }
 
-/* Center-align h2 and h3 */
 .about-section h2,
 .about-section h3 {
   text-align: center;
@@ -499,9 +498,9 @@ card-text:last-child {
 
 
 .student-discount {
-  background-color: var(--highlight-color);
+  background-color:white;
   font-weight: bold;
-  color:#846C5B;
+  color:#4A2F1C;
   display: block;
   max-width: 300px;
   margin: auto;
@@ -548,7 +547,9 @@ card-text:last-child {
 .custom-button-outline {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 /*Booking form*/
+
 #booking-form {
   background-color: #CAB6A5;
     
@@ -563,10 +564,6 @@ card-text:last-child {
 }
 .container-section h3 {
   color: #4A2F1C;
-}
-
-.container-section btn custom-button-outline {
-  color:white
 }
 
 .form-background {
@@ -680,7 +677,7 @@ footer{
   /* Header */
   header {
     
-    flex-direction: row; /* Stack the logo and navigation vertically */
+    flex-direction: row; 
     align-items: center;
     padding: 0;
     background-size: cover;
@@ -708,13 +705,13 @@ h2 { font-size: 1.8rem; }
 h3 { font-size: 1.5rem; }
 p { font-size: 1rem; line-height: 1.6; }
 
-/* Improve spacing for mobile */
+
 .chai-content-wrapper {
     margin: 20px 0;
     padding: 15px;
 }
 
-/* Better footer layout for mobile */
+
 .footer-container ul {
     display: flex;
     justify-content: center;
@@ -819,9 +816,11 @@ p { font-size: 1rem; line-height: 1.6; }
   .form-background {
       padding: 10px;
   }
+
   /*Menu*/
+
   .category {
-    flex: 1 1 100%; /* Take full width on smaller screens */
+    flex: 1 1 100%; 
     background-color:#CAB6A5;
     padding:10px;
 }
@@ -832,7 +831,7 @@ p { font-size: 1rem; line-height: 1.6; }
   }
 
   .footer-container a {
-    font-size: 1.2rem; /* Smaller icons */
+    font-size: 1.2rem; 
   }
 
   .copyright p {
@@ -919,7 +918,7 @@ p { font-size: 1rem; line-height: 1.6; }
 
 /* Larger Screens (min-width: 1200px) */
 @media (min-width: 1200px) {
-  /* Adjust header and navigation */
+ 
   .flex-container {
     justify-content: space-between;
   }
@@ -946,7 +945,7 @@ p { font-size: 1rem; line-height: 1.6; }
   }
 
   /* Hero Section */
-  @media (min-width: 1200px) {
+  
     #cover-text {
       max-width: 800px;
       width: auto;
@@ -966,7 +965,7 @@ p { font-size: 1rem; line-height: 1.6; }
     #hero-outer {
     margin-top: 0px;
     }
-  }
+  
   /* Content sections */
   .chai-content-wrapper {
     max-width: 1200px; 
