@@ -18,8 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 
@@ -79,7 +78,6 @@ h3 {
   text-decoration: underline;
   
 }
-
 
 .nav-item {
   margin-left: 0px;
@@ -151,8 +149,7 @@ h3 {
 }
 
 /*section styling*/
-
-#offer-header{
+ #offer-header{
   text-align: center;
   background-color: #CEA07E;
   text-decoration-color: #4A2F1C;
@@ -166,7 +163,6 @@ h3 {
 
 }
 #chai-text {
- 
   display: block;
   margin: 0 auto;
   line-height: 30px;
@@ -178,13 +174,11 @@ h3 {
   margin-right: auto; 
 }
 
-
 .chai-content-wrapper{
   max-width: 1200px; 
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
- 
 }
 
 .image-background{
@@ -359,16 +353,12 @@ textarea {
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
- 
+  align-items: center;   
 }
-
 
 .category:hover {
   transform: scale(1.05);
 }
-
 
 .category img {
   max-width: 100%;
@@ -508,9 +498,7 @@ card-text:last-child {
   font-size: 0.8rem;
 }
 
-
 /* Buttons */
-
 .custom-button-filled {
   border: 2px solid ;
   background-color: #4A2F1C ;
@@ -595,7 +583,6 @@ card-text:last-child {
 }
 
 /*Return*/
-
 .return-link {
   font-family: Quicksand;
   font-size: 1em;
@@ -617,7 +604,6 @@ card-text:last-child {
 }
 
 /*Footer styling*/
-
 footer{
   background-color: #CAB6A5;
   border-bottom: 1px solid #a68370;
@@ -689,11 +675,9 @@ footer{
     width: auto;
 }
 
-
 .navbar-toggler {
     margin-left: auto; 
 }
-
 
 .navbar-nav .nav-item {
     margin: 0 5px; 
