@@ -22,10 +22,6 @@ body {
 }
 
 
-  main {
-    flex: 1 0 auto;
-  }
-
 /*header*/
 header {
     border-bottom: 2px solid #CCC7B9;
@@ -33,9 +29,7 @@ header {
     top: 0;
     width: 100%;
     background-color:white;
-    padding: 2px;
-  
-    
+    padding: 2px;      
 }
 
 /*heading*/ 

@@ -7,7 +7,7 @@ The live website is here [Chai & Pies](https://webwiz-perer.github.io/Chai-Pies.
 The Chai & Pies Cafe website offers a glimpse into our unique fusion range of fusion treats along with the warm and welcoming ambiance. Our menu invites users to a multiple actvities and events filled with food from Savory delights like samosas, pasties, and tikka sandwiches to indulgent fusion desserts like chocolate samosas. We also serve a variety of innovative drinks, blending traditional tea and coffee flavors with modern twists. You can conveniently explore our services, events and menu online. Users can easily book events, tables or parties and also pre-order food. Our aim is to create a simple and enjoyable experience for all, making our cross-cultural culinary fusion accessible to everyone.
 
 ## Project Goals
-The Chai & Pies Cafe website offers a look into our menu of fusion-inspired dishes, including savory pies, samosas, indulgent desserts, and specialty drinks. Users can easily reserve a table, explore flexible booking options, and reach out with any questions or feedback. The aim is to create a warm, accessible experience that invites everyone to enjoy our unique blend of flavors and cultures.
+The Chai & Pies Cafe website offers a look into our menu of fusion-inspired dishes, including savory pies, samosas, indulgent desserts, and specialty drinks along with an insight into the ambiance and activities/events users can enjoy. Users can easily reserve a table,book an event, explore flexible booking options, and reach out with any questions or feedback. The aim is to create a warm, accessible experience that invites everyone to enjoy our unique blend of flavors and cultures.
 
 1.**Explore Fusion Cuisine:** Highlight our unique menu of fusion-inspired dishes, from savory samosas and pies to rich desserts and specialty drinks, inviting guests to savor diverse flavors crafted from a blend of culinary traditions.
 
@@ -40,12 +40,11 @@ Returning Visitor Goals:
 3.As a frequent visitor, I look forward to discovering new articles, recipes, or cultural stories shared by Chai & Pies, keeping me engaged and informed about the café’s evolving fusion cuisine and community events.
 
 ## User Experience (UX) & User Interface (UI)
+
 ### Wireframes
 Wireframes are made using Balsamiq
 
--<summary>Wireframes</summary> 
 ![Wireframes](Documentation/Wireframes/wireframes.png)
-
 
 ## Design
 
@@ -116,7 +115,7 @@ The Navbar is loacted at the top of page and comprises of Logo and navigation li
 
 ### Return Link 
 
-Return to Top link is provided at the bottom of every page in order for user to navigate easily to the top of page rather than screlling back uo again.
+Return to Top link is provided at the bottom of every page in order for user to navigate easily to the top of page rather than scrolling back up again.
 
 ![Return](Documentation/websiteimages/Returnlink.png)
 
@@ -206,7 +205,7 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  ![menu](Documentation/websiteimages/menucat2.png)
 
  ### Contact
- The contact page guides users to a map showing the café’s location and provides contact details, including email, phone number, and address. It also features a form where users can submit questions or share feedback. Built using the Bootstrap framework, the form is complemented by a background video, adding an aesthetically pleasing touch to the page.
+ The contact page guides users to a map showing the café’s location and provides contact details, including email, phone number, and address. It also features a form where users can submit questions or share feedback. Built using the Bootstrap framework, the form is complemented by a background video, adding an aesthetically pleasing touch to the page. The contact page if submitted successfully is linked with code institue template that shows the information submitted. Future scope is to make separate success page. One has already been done for book a table.
 
  ![contact form](Documentation/websiteimages/contactform.png)
  ![contact form](Documentation/websiteimages/map.png)
