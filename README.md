@@ -1,10 +1,13 @@
 # Chai & Pie 
 ![Responsive Mockup](Documentation/websiteimages/amiresponsive.png)
+
+The live website is here [Chai & Pies](https://webwiz-perer.github.io/Chai-Pies.com/)
+
 ## Introduction 
-The Chai & Pies Café website offers a glimpse into our unique fusion range of fusion treats along with the warm and welcoming ambiance. Our menu invites users to a multiple actvities and events filled with food from Savory delights like samosas, pasties, and tikka sandwiches to indulgent fusion desserts like chocolate samosas. We also serve a variety of innovative drinks, blending traditional tea and coffee flavors with modern twists. You can conveniently explore our services, events and menu online. Users can easily book events, tables or parties and also pre-order food. Our aim is to create a simple and enjoyable experience for all, making our cross-cultural culinary fusion accessible to everyone.
+The Chai & Pies Cafe website offers a glimpse into our unique fusion range of fusion treats along with the warm and welcoming ambiance. Our menu invites users to a multiple actvities and events filled with food from Savory delights like samosas, pasties, and tikka sandwiches to indulgent fusion desserts like chocolate samosas. We also serve a variety of innovative drinks, blending traditional tea and coffee flavors with modern twists. You can conveniently explore our services, events and menu online. Users can easily book events, tables or parties and also pre-order food. Our aim is to create a simple and enjoyable experience for all, making our cross-cultural culinary fusion accessible to everyone.
 
 ## Project Goals
-The Chai & Pies Café website offers a look into our menu of fusion-inspired dishes, including savory pies, samosas, indulgent desserts, and specialty drinks. Users can easily reserve a table, explore flexible booking options, and reach out with any questions or feedback. The aim is to create a warm, accessible experience that invites everyone to enjoy our unique blend of flavors and cultures.
+The Chai & Pies Cafe website offers a look into our menu of fusion-inspired dishes, including savory pies, samosas, indulgent desserts, and specialty drinks. Users can easily reserve a table, explore flexible booking options, and reach out with any questions or feedback. The aim is to create a warm, accessible experience that invites everyone to enjoy our unique blend of flavors and cultures.
 
 1.**Explore Fusion Cuisine:** Highlight our unique menu of fusion-inspired dishes, from savory samosas and pies to rich desserts and specialty drinks, inviting guests to savor diverse flavors crafted from a blend of culinary traditions.
 
@@ -12,9 +15,7 @@ The Chai & Pies Café website offers a look into our menu of fusion-inspired dis
 
 3.**Easy Inquiries & Feedback:** Offer an accessible contact form for guests to ask questions, request special options, or provide feedback, helping us create a personalized experience for our community.
 
-4.**Fusion Food Stories & Insights:** Share articles, recipes, and stories that celebrate the cultural blending behind our cuisine, inspiring guests with the rich heritage of each flavor.
-
-5.**Community Events & Gatherings:** Feature our calendar of events—such as game nights, cultural tastings, and themed gatherings—inviting guests to join us in celebrating food, culture, and community in a vibrant café setting.
+4.**Community Events & Gatherings:** Feature our calendar of events—such as game nights, cultural tastings, and themed gatherings—inviting guests to join us in celebrating food, culture, and community in a vibrant café setting.
 
 ## User Stories
 
@@ -113,15 +114,23 @@ The Navbar is loacted at the top of page and comprises of Logo and navigation li
 ![Mobile Navbar Image](Documentation/websiteimages/navbarmobile2.png)
 
 
+### Return Link 
+
+Return to Top link is provided at the bottom of every page in order for user to navigate easily to the top of page rather than screlling back uo again.
+
+![Return](Documentation/websiteimages/Returnlink.png)
 
 ### Footer
+
 Connect with us on social media and stay updated on our latest events and offerings:
 
 - **Instagram**: [Follow us in ](https://instagram.com/)
 - **Facebook**: [Like our page](https://facebook.com/)
 - **Twitter**: [Tweet with us](https://twitter.com/)
--**Copyright**: 2024[chai&pies](http://www.linkedin.com/in/aisha-shah-b1921229)
-![Footer](documentation/footer-section.jpg)
+-**Copyright**: 2024[chai&pies] 
+
+
+![Footer](Documentation/websiteimages/footer.png)
  
   ### The Landing Page Image(Home)
    The landing page features an inviting image showcasing cafes interior with books on oneside and the counter on the other with a text overlay that highlights the purpose of Chai & Pies.
@@ -163,13 +172,17 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 
  -Parties: Users looking to books space for arranging parties, be it a corporate party or kids birthday party.
 
- All categories have a footer with book a table link for users to navigate easily to booking a table form.
+ A scroll feature has been added to all service cards to ensure they remain uniform in size, regardless of the amount of text inside.
+
+ Each category  includes a footer with a "Book a Table" link, allowing users to easily navigate to the table booking form.
+
  ![Services](Documentation/websiteimages/services.png)
 
  **Event schedule**
 
  This section focuses on upcoming events, presented in a table format for user convenience. It includes details such as prices and times, showcasing when each event is scheduled to occur.
  users can book from here as per convenienve using the book now button.
+
  ![Services](Documentation/websiteimages/events.png)
 
 
@@ -186,6 +199,9 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  - **Desserts**: For those with a sweet tooth, the Desserts section features a range of decadent treats, from fusion-inspired sweets to timeless classics. Each dessert is designed to provide a satisfying finish to the dining experience, blending flavors that are both indulgent and comforting.
 
  Each section reflects our commitment to innovation and quality, bringing together ingredients and techniques from various culinary backgrounds to create a distinctive menu. The layout of the menu page makes it easy for users to explore these diverse offerings, allowing them to appreciate the thoughtful fusion of recipes that defines the Chai & Pies experience.
+
+ All the cateogeries have hoover style added onto it.
+
  ![menu](Documentation/websiteimages/menucat1.png)
  ![menu](Documentation/websiteimages/menucat2.png)
 
@@ -216,7 +232,7 @@ Quiet Corner: This section is designed for users seeking a respite from their us
 
  ## Technologies Used
 
- ### Frameworks - Libraries - Programs Used
+ ### Frameworks - Libraries 
  - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
  - [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
  - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
@@ -294,12 +310,14 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  ## Responsiveness
 
 ### Device Testing
+
  - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
  - I also used the following websites to test responsiveness:
     - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fwebwiz-perer.github.io%2FChai-Pies.com)
     - [Am I Responsive](https://ui.dev/amiresponsive?url=https://webwiz-perer.github.io/Chai-Pies.com)
 
  ## w3c Validator
+
  #### HTML
  No error were found on any page when running through offcial W3C Markup Validator
  ![w3c home Validator](Documentation/W3Testing/w3chome.png)
@@ -352,6 +370,14 @@ Quiet Corner: This section is designed for users seeking a respite from their us
  - The background video on contact form doesnot really work as intended on safari. It works fine on edge, chrome and firefox. It actually is static when behind the form on safari and overshadows the form when played.
 
  - Also, the score on best practices contact page is 79 due to third party loading speed. 
+
+## Future Scope
+
+- Adding separate pages to each category in menu with detailed ingredients and pice list.
+
+- Improving the display of services card in About us page on Ipad air and larger screens.
+
+- Adding a page about Fusion Food Stories & Insights where we can Share articles, recipes, and stories that celebrate the cultural blending behind our cuisine, inspiring guests with the rich heritage of each flavor.
 
 
  ## Credits
